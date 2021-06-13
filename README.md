@@ -20,6 +20,8 @@ limitations under the License.
 
 # Max Code Point
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > Maximum [Unicode][unicode] code point in the Basic Multilingual Plane (BMP).
 
 <section class="installation">
@@ -107,6 +109,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/constants-unicode-max-bmp.svg
+[npm-url]: https://npmjs.org/package/@stdlib/constants-unicode-max-bmp
+
+[test-image]: https://github.com/stdlib-js/constants-unicode-max-bmp/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/constants-unicode-max-bmp/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-unicode-max-bmp/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/constants-unicode-max-bmp?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/constants-unicode-max-bmp
+[dependencies-url]: https://david-dm.org/stdlib-js/constants-unicode-max-bmp/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
