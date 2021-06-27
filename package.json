@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-unicode-max-bmp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Maximum Unicode code point in the Basic Multilingual Plane (BMP).",
   "license": "Apache-2.0",
   "author": {
