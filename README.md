@@ -20,7 +20,7 @@ limitations under the License.
 
 # Max Code Point
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Maximum [Unicode][unicode] code point in the Basic Multilingual Plane (BMP).
 
@@ -88,7 +88,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   [`@stdlib/constants/unicode/max`][@stdlib/constants/unicode/max]: maximum Unicode code point.
+-   <span class="package-name">[`@stdlib/constants/unicode/max`][@stdlib/constants/unicode/max]</span><span class="delimiter">: </span><span class="description">maximum Unicode code point.</span>
 
 </section>
 
@@ -139,8 +139,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-unicode-max-bmp/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-unicode-max-bmp?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/constants-unicode-max-bmp.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/constants-unicode-max-bmp/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
