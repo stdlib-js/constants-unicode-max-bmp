@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/constants-unicode-max-bmp",
+  "version": "0.0.0",
+  "description": "Maximum Unicode code point in the Basic Multilingual Plane (BMP).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-unicode-max-bmp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdstring",
+    "constant",
+    "const",
+    "string",
+    "unicode",
+    "utf-16",
+    "utf16",
+    "utf8",
+    "utf-8",
+    "utf-32",
+    "utf32",
+    "text",
+    "maximum",
+    "max",
+    "code",
+    "point",
+    "basic",
+    "multilingual",
+    "plane",
+    "bmp"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
