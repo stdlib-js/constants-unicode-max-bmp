@@ -24,32 +24,30 @@ limitations under the License.
 
 > Maximum [Unicode][unicode] code point in the Basic Multilingual Plane (BMP).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-unicode-max-bmp
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-UNICODE_MAX_BMP = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-unicode-max-bmp@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-unicode-max-bmp@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.UNICODE_MAX_BMP;
-})();
-</script>
+var UNICODE_MAX_BMP = require( '@stdlib/constants-unicode-max-bmp' );
 ```
 
 #### UNICODE_MAX_BMP
@@ -71,16 +69,11 @@ var bool = ( UNICODE_MAX_BMP === 65535 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-from-code-point@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-unicode-max-bmp@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var floor = require( '@stdlib/math-base-special-floor' );
+var fromCodePoint = require( '@stdlib/string-from-code-point' );
+var UNICODE_MAX_BMP = require( '@stdlib/constants-unicode-max-bmp' );
 
 var x;
 var i;
@@ -89,11 +82,6 @@ for ( i = 0; i < 100; i++ ) {
     x = floor( randu() * UNICODE_MAX_BMP );
     console.log( fromCodePoint( x ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -179,6 +167,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-unicode-max-bmp/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-unicode-max-bmp/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-unicode-max-bmp/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-unicode-max-bmp/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-unicode-max-bmp/main/LICENSE
 
@@ -186,7 +175,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/unicode/max]: https://github.com/stdlib-js/constants-unicode-max/tree/umd
+[@stdlib/constants/unicode/max]: https://github.com/stdlib-js/constants-unicode-max
 
 <!-- </related-links> -->
 
