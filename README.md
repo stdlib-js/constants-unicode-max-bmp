@@ -96,7 +96,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/unicode/max`][@stdlib/constants/unicode/max]</span><span class="delimiter">: </span><span class="description">maximum Unicode code point.</span>
+-   <span class="package-name">[`@stdlib/constants-unicode/max`][@stdlib/constants/unicode/max]</span><span class="delimiter">: </span><span class="description">maximum Unicode code point.</span>
 
 </section>
 
