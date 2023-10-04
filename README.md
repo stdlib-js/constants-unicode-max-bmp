@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import UNICODE_MAX_BMP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-unicode-max-bmp@deno/mod.js';
+import UNICODE_MAX_BMP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-unicode-max-bmp@v0.1.1-deno/mod.js';
 ```
 
 #### UNICODE_MAX_BMP
@@ -68,7 +68,7 @@ var bool = ( UNICODE_MAX_BMP === 65535 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
 import fromCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-from-code-point@deno/mod.js';
-import UNICODE_MAX_BMP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-unicode-max-bmp@deno/mod.js';
+import UNICODE_MAX_BMP from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-unicode-max-bmp@v0.1.1-deno/mod.js';
 
 var x;
 var i;
