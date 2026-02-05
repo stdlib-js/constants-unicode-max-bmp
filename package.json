@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-unicode-max-bmp",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Maximum Unicode code point in the Basic Multilingual Plane (BMP).",
   "license": "Apache-2.0",
   "author": {
@@ -36,8 +36,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/math-base-special-floor": "^0.2.3",
-    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/math-base-special-floor": "^0.2.4",
+    "@stdlib/random-base-randu": "^0.2.2",
     "@stdlib/string-from-code-point": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
